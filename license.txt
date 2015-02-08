@@ -1,0 +1,44 @@
+AwesomeButton (GPL License)
+Copyright (C) 2014  Mehdi BETARI
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software.
+
+
+
+Licenses below are subject to the license type you own for AwesomeButton
+
+Bootstrap (GPL License)
+	Source Code
+	
+	Bootstrap projects are released under the terms of the MIT license.
+	
+Jquery (GPL License)
+	Source Code
+	
+	jQuery projects are released under the terms of the MIT license.
+	
+	The MIT License is simple and easy to understand and it places almost no restrictions on what you can do with a jQuery project.
+	
+	You are free to use any jQuery project in any other project (even commercial projects) as long as the copyright header is left intact.
+	
+Font Awesome (MIT & GPL Licenses)
+	Font License
+	
+	Applies to all desktop and webfont files in the following directory: font-awesome/fonts/.
+	License: SIL OFL 1.1
+	URL: http://scripts.sil.org/OFL
+	Code License
+	
+	Applies to all CSS and LESS files in the following directories: font-awesome/css/, font-awesome/less/, and font-awesome/scss/.
+	License: MIT License
+	URL: http://opensource.org/licenses/mit-license.html

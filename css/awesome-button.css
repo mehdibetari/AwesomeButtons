@@ -1,0 +1,320 @@
+/* 
+ *	AwesomeButton (GPL License)
+ *	Copyright (C) 2014  Mehdi BETARI
+*/
+
+
+/*
+ * TXT COLOR
+ */
+.txt-color-success	{color: rgb(46, 204, 113) !important;}
+.txt-color-primary	{color: rgb(52, 152, 219) !important;}
+.txt-color-wisteria	{color: rgb(155, 89, 182) !important;}
+.txt-color-green	{color: rgb(26, 188, 156) !important;}
+.txt-color-sun		{color: rgb(241, 196, 15) !important;}
+.txt-color-warning	{color: rgb(230, 126, 34) !important;}
+.txt-color-danger	{color: rgb(231, 76, 60) !important;} 
+.txt-color-info		{color:rgb(137, 196, 244) !important;}
+.txt-color-pink		{color:rgb(246, 36, 89) !important;}
+.txt-color-blue		{color:color:rgb(58, 83, 155) !important;}
+.txt-color-grey		{color:color:rgb(189, 195, 199) !important;}
+
+
+/*
+ * BTN CUSTOM
+ */
+.btn {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: relative;
+    color:rgb(255,255,255);
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true)";zoom:1;
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true);
+    -moz-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true);
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro';
+    line-height: 1.42857143;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+}
+.btn-xs{
+font-size: 12px;
+
+}
+.btn-sm{
+font-size: 14px;
+
+}
+.btn-lg{
+font-size: 24px;
+
+}
+
+/*
+ * ITEM 
+ */
+.btn-item{padding-left: 70px;}
+.content-left{
+    position: relative;
+    right: 40px;
+}
+.item-left {
+    position: absolute;
+    left: 10px;
+    width: 50px;
+    background-color:rgba(0, 0, 0, 0.0980392);
+    height: 100%;
+    top: 0;
+    padding: 9px;
+}
+.item-right {
+    position: absolute;
+    right: 10px;
+    width: 50px;
+    background-color:rgba(0, 0, 0, 0.0980392);
+    height: 100%;
+    top: 0;
+    padding: 9px;
+}
+.item-white{
+    background-color:white;
+    color: black;
+}
+.item-left-border {
+    left: 0px;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.item-right-border {
+    right: 0px;
+    -webkit-border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.item-carret{
+    display: inline-block;
+    width: 10px;
+    height: 11px;
+    background-color: rgb(255,255,255);
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    left: -26px;
+}
+.carret-right{
+    position: absolute;
+    right: 44px !important;
+    left: inherit;
+    top: 34%;
+}
+.btn-xs > .item-carret{
+    position: absolute;
+    top: 20%;
+	left: 42px;
+}
+.btn-xs > .carret-right{
+    top: 18%;
+	left: inherit;
+	right: 42px !important;
+}
+.item-bar-left{ 
+background-color: rgba(0, 0, 0, 0) !important;
+border-left:1px solid white;
+}
+.item-bar-right{ 
+background-color: rgba(0, 0, 0, 0) !important;
+border-right:1px solid white;
+}
+.btn-lg > .item-left, .btn-lg > .item-right{
+    
+    padding: 13px;
+}
+.btn-xs > .item-left, .btn-xs > .item-right{
+    
+    padding: 4px;
+}
+.btn-sm > .item-left, .btn-sm > .item-right{
+    
+    padding: 8px;
+}
+
+/*
+ * BTN CUSTOM COLOR STYLE
+ */
+.btn-primary{
+background-color: rgb(52, 152, 219);
+border-bottom-color: rgb(41, 128, 185);
+border-left-color: rgb(41, 128, 185);
+border-right-color: rgb(41, 128, 185);
+border-top-color: rgb(41, 128, 185);
+}
+.btn-primary:hover{
+background-color: rgb(41, 128, 185);
+color:white;
+}
+
+.btn-info{
+background-color: rgb(137, 196, 244);
+border-bottom-color: rgb(25, 181, 254);
+border-left-color: rgb(25, 181, 254);
+border-right-color: rgb(25, 181, 254);
+border-top-color: rgb(25, 181, 254);
+}
+.btn-info:hover{
+background-color: rgb(25, 181, 254);
+color:white;
+}
+
+.btn-wisteria{
+background-color: rgb(155, 89, 182);
+border-bottom-color: rgb(142, 68, 173);
+border-left-color: rgb(142, 68, 173);
+border-right-color: rgb(142, 68, 173);
+border-top-color: rgb(142, 68, 173);
+color:white;
+}
+.btn-wisteria:hover{
+background-color: rgb(142, 68, 173);
+color:white;
+}
+
+.btn-success{
+background-color:rgb(46, 204, 113);
+border-bottom-color: rgb(39, 174, 96);
+border-left-color: rgb(39, 174, 96);
+border-right-color: rgb(39, 174, 96);
+border-top-color: rgb(39, 174, 96);}
+.btn-success:hover{
+background-color:rgb(39, 174, 96);
+color:white;
+}
+
+.btn-green{
+background-color:rgb(26, 188, 156);
+border-bottom-color: rgb(22, 160, 133);
+border-left-color: rgb(22, 160, 133);
+border-right-color: rgb(22, 160, 133);
+border-top-color: rgb(22, 160, 133);
+color:white;}
+.btn-green:hover{
+background-color:rgb(22, 160, 133);
+color:white;
+}
+
+.btn-default{
+background-color:rgb(236, 240, 241);
+border-bottom-color: rgb(189, 195, 199);
+border-left-color: rgb(189, 195, 199);
+border-right-color: rgb(189, 195, 199);
+border-top-color: rgb(189, 195, 199);
+color:rgb(189, 195, 199);
+}
+.btn-default:hover{
+background-color:rgb(230, 235, 235);
+}
+
+.btn-sun{
+background-color:rgb(241, 196, 15);
+border-bottom-color: rgb(243, 156, 18);
+border-left-color: rgb(243, 156, 18);
+border-right-color: rgb(243, 156, 18);
+border-top-color: rgb(243, 156, 18);
+color:white;
+}
+.btn-sun:hover{
+background-color:rgb(243, 156, 18);
+color:white;
+}
+
+.btn-warning{
+background-color:rgb(230, 126, 34);
+border-bottom-color: rgb(211, 84, 0);
+border-left-color: rgb(211, 84, 0);
+border-right-color: rgb(211, 84, 0);
+border-top-color: rgb(211, 84, 0);
+}
+.btn-warning:hover{
+background-color:rgb(211, 84, 0);
+color:white;
+}
+
+.btn-danger{
+background-color:rgb(231, 76, 60);
+border-bottom-color: rgb(192, 57, 43);
+border-left-color: rgb(192, 57, 43);
+border-right-color: rgb(192, 57, 43);
+border-top-color: rgb(192, 57, 43);
+}
+.btn-danger:hover{
+background-color:rgb(192, 57, 43);
+color:white;
+}
+
+.btn-pink{
+background-color:rgb(246, 36, 89);
+border-bottom-color: rgb(219, 10, 91);
+border-left-color: rgb(219, 10, 91);
+border-right-color: rgb(219, 10, 91);
+border-top-color: rgb(219, 10, 91);
+}
+.btn-pink:hover{
+background-color:rgb(219, 10, 91);
+color:white;
+}
+
+.btn-grey{
+background-color:rgb(189, 195, 199);
+border-bottom-color: rgb(108, 122, 137);
+border-left-color: rgb(108, 122, 137);
+border-right-color: rgb(108, 122, 137);
+border-top-color: rgb(108, 122, 137);
+}
+.btn-grey:hover{
+background-color:rgb(108, 122, 137);
+color:white;
+}
+
+.btn-blue{
+background-color:rgb(58, 83, 155);
+border-bottom-color: rgb(31, 58, 147);
+border-left-color: rgb(31, 58, 147);
+border-right-color: rgb(31, 58, 147);
+border-top-color: rgb(31, 58, 147);
+}
+.btn-blue:hover{
+background-color:rgb(31, 58, 147);
+color:white;
+}
+
+
+
+

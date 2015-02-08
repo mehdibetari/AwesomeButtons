@@ -1,0 +1,29 @@
+/* 
+ *	AwesomeButton (GPL License)
+ *	Copyright (C) 2014  Mehdi BETARI
+*/
+body {
+	background:
+		-webkit-linear-gradient(45deg, hsla(9, 95%, 41%, 1) 0%, hsla(9, 95%, 41%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(213, 99%, 41%, 1) 10%, hsla(213, 99%, 41%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(331, 93%, 46%, 1) 10%, hsla(331, 93%, 46%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(75, 97%, 49%, 1) 100%, hsla(75, 97%, 49%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(9, 95%, 41%, 1) 0%, hsla(9, 95%, 41%, 0) 70%),
+		linear-gradient(135deg, hsla(213, 99%, 41%, 1) 10%, hsla(213, 99%, 41%, 0) 80%),
+		linear-gradient(225deg, hsla(331, 93%, 46%, 1) 10%, hsla(331, 93%, 46%, 0) 80%),
+		linear-gradient(315deg, hsla(75, 97%, 49%, 1) 100%, hsla(75, 97%, 49%, 0) 70%);
+	}
+.container-white{
+	background-color:white;
+}
+h1{
+	font-family: Quicksand,sans-serif;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-size: 53px;
+	font-weight: 300;
+	text-align:center;
+}
+.padding-25	{ padding:25px;}
+.marginT-25	{ margin-top:25px;}
